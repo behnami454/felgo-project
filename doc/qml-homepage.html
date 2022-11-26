@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- HomePage.qml -->
+  <title>HomePage QML Type | FelgoProject</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<p class="header"><small>[My simple FelgoProject documentation]</small></p><hr/><div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+<li class="level2"><a href="#creating-grid-for-this-page-which-you-can-check-the-all-details-here-felgo-grid">Creating Grid for this page (which you can check the all details here <a href="https://felgo.com/doc/qt/qml-qtquick-grid/">Felgo Grid</a> )</a></li>
+<li class="level3"><a href="#creating-appbutton-for-this-page-which-you-can-check-the-all-details-here-felgo-appbutton">Creating AppButton for this page (which you can check the all details here <a href="https://felgo.com/doc/felgo-appbutton/">Felgo AppButton</a> )</a></li>
+<li class="level4"><a href="#component-for-going-to-another-page">Component for going to another page</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">HomePage QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$HomePage-brief -->
+<p>First Page that shows in the MainPage so basically this is the page we see at first. <a href="#details">More...</a></p>
+<!-- @@@HomePage -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import  </td></tr></table></div><ul>
+<li><a href="qml-homepage-members.html">List of all members, including inherited members</a></li>
+</ul>
+<!-- $$$HomePage-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+<p>this the the HomePage</p>
+<a name="creating-grid-for-this-page-which-you-can-check-the-all-details-here-felgo-grid"></a>
+<h2 id="creating-grid-for-this-page-which-you-can-check-the-all-details-here-felgo-grid">Creating Grid for this page (which you can check the all details here <a href="https://felgo.com/doc/qt/qml-qtquick-grid/">Felgo Grid</a> )</h2>
+<p>we use some Felgo components like Grid and Column and Row:</p>
+<pre class="qml"><span class="type">Grid</span> {
+    <span class="name">id</span>: <span class="name">grid</span>
+    <span class="name">width</span>: <span class="number">400</span>
+    <span class="name">height</span>: <span class="number">400</span>
+    <span class="name">anchors</span>.verticalCenter: <span class="name">parent</span>.<span class="name">verticalCenter</span>
+    <span class="name">anchors</span>.verticalCenterOffset: <span class="number">42</span>
+    <span class="name">anchors</span>.horizontalCenterOffset: <span class="number">80</span>
+    <span class="name">anchors</span>.horizontalCenter: <span class="name">parent</span>.<span class="name">horizontalCenter</span>
+    <span class="name">z</span>: <span class="number">10</span>
+    <span class="name">rotation</span>: <span class="number">0</span>
+    <span class="name">rows</span>: <span class="number">4</span>
+    <span class="name">state</span>: <span class="string">&quot;&quot;</span>
+    <span class="name">clip</span>: <span class="number">false</span>
+    <span class="name">spacing</span>: <span class="number">38</span>
+    <span class="name">columns</span>: <span class="number">2</span>
+  }</pre>
+<a name="creating-appbutton-for-this-page-which-you-can-check-the-all-details-here-felgo-appbutton"></a>
+<h3 id="creating-appbutton-for-this-page-which-you-can-check-the-all-details-here-felgo-appbutton">Creating AppButton for this page (which you can check the all details here <a href="https://felgo.com/doc/felgo-appbutton/">Felgo AppButton</a> )</h3>
+<p>we use some Felgo components like Grid here:</p>
+<pre class="qml"><span class="type">AppButton</span> {
+   <span class="name">text</span>: <span class="string">&quot;Tennis&quot;</span>
+   <span class="name">onClicked</span>: <span class="name">mainPage</span>.<span class="name">navigationStack</span>.<span class="name">push</span>(<span class="name">federerPage</span>)
+   <span class="name">borderColor</span>: <span class="string">&quot;white&quot;</span>
+   <span class="name">textColor</span>: <span class="string">&quot;white&quot;</span>
+   <span class="name">radius</span>: <span class="number">10</span>
+   <span class="name">backgroundColor</span>: <span class="string">&quot;#4b0404&quot;</span>
+   <span class="name">flat</span>: <span class="number">false</span>
+   <span class="name">rotation</span>: <span class="number">8.25</span>
+   <span class="name">anchors</span>.bottom: <span class="name">parent</span>.<span class="name">bottom</span>
+   <span class="name">anchors</span>.horizontalCenter: <span class="name">parent</span>.<span class="name">horizontalCenter</span>
+   <span class="name">anchors</span>.bottomMargin: -<span class="number">20</span>
+   <span class="name">y</span>: -<span class="number">2</span>
+
+    }</pre>
+<a name="component-for-going-to-another-page"></a>
+<h4 id="component-for-going-to-another-page">Component for going to another page</h4>
+<p>we use some Felgo components lto going to another page by refernce the id the component in Onclick in AppButton:</p>
+<pre class="qml"><span class="type">Component</span> {
+    <span class="name">id</span>: <span class="name">rossiPage</span>
+    <span class="type"><a href="qml-rossipage.html">RossiPage</a></span>{}
+}</pre>
+<!-- @@@HomePage -->
+<hr/><p class="footer"><small>FelgoProject</small></p></body>
+</html>

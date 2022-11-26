@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- JordanModel.qml -->
+  <title>JordanModel QML Type | FelgoProject</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<p class="header"><small>[My simple FelgoProject documentation]</small></p><hr/><div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+<li class="level2"><a href="#inserting-informations">inserting informations</a></li>
+<li class="level3"><a href="#showing-datas">showing datas</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">JordanModel QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$JordanModel-brief -->
+<p>this page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before ). <a href="#details">More...</a></p>
+<!-- @@@JordanModel -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import  </td></tr></table></div><ul>
+<li><a href="qml-jordanmodel-members.html">List of all members, including inherited members</a></li>
+</ul>
+<!-- $$$JordanModel-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+<p>this the the JordanModel</p>
+<a name="inserting-informations"></a>
+<h2 id="inserting-informations">inserting informations</h2>
+<p>Creating variable that we can insert information in it and then later we show them in AppListView:</p>
+<pre class="qml">property var myModel: [
+    {label: &quot;Olympic&quot;, info: &quot;He has won 2 trophies&quot;},
+    {label: &quot;NBA Finals MVP&quot;, info: &quot;He has won 6 trophies&quot;},
+    {label: &quot;NBA Most Valuable Player &quot;, info: &quot;He has won 5 trophies&quot;},
+    {label: &quot;NBA All-Star &quot;, info: &quot;He has won 14 trophies&quot;},
+    {label: &quot;NBA All-Star Game MVP&quot;, info: &quot;He has won 3 trophies&quot;},
+    {label: &quot;All-NBA First Team&quot;, info: &quot;He has won 10 trophies&quot;},
+    {label: &quot;Nba championship&quot;, info: &quot;He has won 6 trophies&quot;},
+]</pre>
+<a name="showing-datas"></a>
+<h3 id="showing-datas">showing datas</h3>
+<p>in this part we show the informations that we inserted into <a href="https://felgo.com/doc/felgo-applistview/">Felgo AppListView</a> :</p>
+<pre class="qml"><span class="type">AppListView</span> {
+    <span class="name">backgroundColor</span>: <span class="string">&quot;#151414&quot;</span>
+    <span class="name">model</span>: <span class="name">jordanModel</span>.<span class="name">myModel</span>
+
+    <span class="comment">// shwoing informations</span>
+    <span class="name">delegate</span>:
+        <span class="name">AppListItem</span> {
+        <span class="name">backgroundColor</span>: <span class="string">&quot;#151414&quot;</span>
+        <span class="name">text</span>: <span class="name">modelData</span>.<span class="name">label</span>
+        <span class="name">detailText</span>: <span class="name">modelData</span>.<span class="name">info</span>
+    }
+}</pre>
+<!-- @@@JordanModel -->
+<hr/><p class="footer"><small>FelgoProject</small></p></body>
+</html>

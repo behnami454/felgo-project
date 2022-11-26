@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="" title="FelgoProject Reference Documentation" version="" project="FelgoProject">
+    <namespace name="" status="active" access="public" module="felgoproject">
+        <qmlclass name="FedererModel" qml-module-name="FedererModel" href="qml-federermodel.html" status="active" access="public" documented="true" title="FedererModel" fulltitle="FedererModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="FedererModel::myModel" href="qml-federermodel.html#myModel-prop" status="internal" access="private" location="FedererModel.qml" filepath="/Users/admin/FelgoProject/qml/model/FedererModel.qml" lineno="61" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="FedererPage" qml-module-name="FedererPage" href="qml-federerpage.html" status="active" access="public" documented="true" title="FedererPage" fulltitle="FedererPage" subtitle="" brief="ANOTHER section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="HamiltonModel" qml-module-name="HamiltonModel" href="qml-hamiltonmodel.html" status="active" access="public" documented="true" title="HamiltonModel" fulltitle="HamiltonModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="HamiltonModel::myModel" href="qml-hamiltonmodel.html#myModel-prop" status="internal" access="private" location="HamiltonModel.qml" filepath="/Users/admin/FelgoProject/qml/model/HamiltonModel.qml" lineno="62" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="HamiltonPage" qml-module-name="HamiltonPage" href="qml-hamiltonpage.html" status="active" access="public" documented="true" title="HamiltonPage" fulltitle="HamiltonPage" subtitle="" brief="ANOTHER section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="HomePage" qml-module-name="HomePage" href="qml-homepage.html" status="active" access="public" documented="true" title="HomePage" fulltitle="HomePage" subtitle="" brief="First Page that shows in the MainPage so basically this is the page we see at first">
+            <contents name="creating-grid-for-this-page-which-you-can-check-the-all-details-here-felgo-grid" title="Creating Grid for this page (which you can check the all details here Felgo Grid )" level="1"/>
+            <contents name="creating-appbutton-for-this-page-which-you-can-check-the-all-details-here-felgo-appbutton" title="Creating AppButton for this page (which you can check the all details here Felgo AppButton )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="JordanModel" qml-module-name="JordanModel" href="qml-jordanmodel.html" status="active" access="public" documented="true" title="JordanModel" fulltitle="JordanModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="JordanModel::myModel" href="qml-jordanmodel.html#myModel-prop" status="internal" access="private" location="JordanModel.qml" filepath="/Users/admin/FelgoProject/qml/model/JordanModel.qml" lineno="59" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="JordanPage" qml-module-name="JordanPage" href="qml-jordanpage.html" status="active" access="public" documented="true" title="JordanPage" fulltitle="JordanPage" subtitle="" brief="ANOTHER section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="Main" qml-module-name="Main" href="qml-main.html" status="active" access="public" documented="true" title="Main" fulltitle="Main" subtitle="" brief="The first page that will run">
+            <contents name="setting-default-theme-for-the-whole-app" title="Setting default Theme for the whole App" level="1"/>
+            <contents name="using-another-page-here-with-refence" title="Using another Page here with Refence" level="3"/>
+        </qmlclass>
+        <qmlclass name="MessiModel" qml-module-name="MessiModel" href="qml-messimodel.html" status="active" access="public" documented="true" title="MessiModel" fulltitle="MessiModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="MessiModel::myModel" href="qml-messimodel.html#myModel-prop" status="internal" access="private" location="MessiModel.qml" filepath="/Users/admin/FelgoProject/qml/model/MessiModel.qml" lineno="62" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="MessiPage" qml-module-name="MessiPage" href="qml-messipage.html" status="active" access="public" documented="true" title="MessiPage" fulltitle="MessiPage" subtitle="" brief="First section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="PhelpsModel" qml-module-name="PhelpsModel" href="qml-phelpsmodel.html" status="active" access="public" documented="true" title="PhelpsModel" fulltitle="PhelpsModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="PhelpsModel::myModel" href="qml-phelpsmodel.html#myModel-prop" status="internal" access="private" location="PhelpsModel.qml" filepath="/Users/admin/FelgoProject/qml/model/PhelpsModel.qml" lineno="56" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="PhelpsPage" qml-module-name="PhelpsPage" href="qml-phelpspage.html" status="active" access="public" documented="true" title="PhelpsPage" fulltitle="PhelpsPage" subtitle="" brief="ANOTHER section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+        <qmlclass name="RossiModel" qml-module-name="RossiModel" href="qml-rossimodel.html" status="active" access="public" documented="true" title="RossiModel" fulltitle="RossiModel" subtitle="" brief="This page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before )">
+            <contents name="inserting-informations" title="inserting informations" level="1"/>
+            <contents name="showing-datas" title="showing datas" level="2"/>
+            <qmlproperty name="myModel" fullname="RossiModel::myModel" href="qml-rossimodel.html#myModel-prop" status="internal" access="private" location="RossiModel.qml" filepath="/Users/admin/FelgoProject/qml/model/RossiModel.qml" lineno="62" type="var" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="RossiPage" qml-module-name="RossiPage" href="qml-rossipage.html" status="active" access="public" documented="true" title="RossiPage" fulltitle="RossiPage" subtitle="" brief="ANOTHER section that shows in the HomePage with a button to go to another page">
+            <contents name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image" title="Creating Image for this page (which you can check the all details here Felgo Image )" level="1"/>
+            <contents name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip" title="Creating ToopTip for this page (which you can check the all details here Felgo ToolTip )" level="2"/>
+            <contents name="component-for-going-to-another-page" title="Component for going to another page" level="3"/>
+        </qmlclass>
+    </namespace>
+</INDEX>

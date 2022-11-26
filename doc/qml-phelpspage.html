@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- PhelpsPage.qml -->
+  <title>PhelpsPage QML Type | FelgoProject</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<p class="header"><small>[My simple FelgoProject documentation]</small></p><hr/><div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+<li class="level2"><a href="#creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image">Creating Image for this page (which you can check the all details here <a href="https://felgo.com/doc/apps-howto-display-images-and-photos/">Felgo Image</a> )</a></li>
+<li class="level3"><a href="#creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip">Creating ToopTip for this page (which you can check the all details here <a href="https://felgo.com/doc/felgo-apptooltip/">Felgo ToolTip</a> )</a></li>
+<li class="level4"><a href="#component-for-going-to-another-page">Component for going to another page</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">PhelpsPage QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$PhelpsPage-brief -->
+<p>ANOTHER section that shows in the <a href="qml-homepage.html">HomePage</a> with a button to go to another page. <a href="#details">More...</a></p>
+<!-- @@@PhelpsPage -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import  </td></tr></table></div><ul>
+<li><a href="qml-phelpspage-members.html">List of all members, including inherited members</a></li>
+</ul>
+<!-- $$$PhelpsPage-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+<p>this the the PhelpsPage</p>
+<a name="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image"></a>
+<h2 id="creating-image-for-this-page-which-you-can-check-the-all-details-here-felgo-image">Creating Image for this page (which you can check the all details here <a href="https://felgo.com/doc/apps-howto-display-images-and-photos/">Felgo Image</a> )</h2>
+<p>we use some Felgo components like Image:</p>
+<pre class="qml"><span class="type">Image</span> {
+    <span class="name">id</span>: <span class="name">PhelpsCountryImage</span>
+    <span class="name">width</span>: <span class="number">50</span>
+    <span class="name">height</span>: <span class="number">50</span>
+    <span class="name">source</span>: <span class="string">&quot;../../assets/usa.png&quot;</span>
+    <span class="name">fillMode</span>: <span class="name">Image</span>.<span class="name">PreserveAspectCrop</span>
+}</pre>
+<a name="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip"></a>
+<h3 id="creating-tooptip-for-this-page-which-you-can-check-the-all-details-here-felgo-tooltip">Creating ToopTip for this page (which you can check the all details here <a href="https://felgo.com/doc/felgo-apptooltip/">Felgo ToolTip</a> )</h3>
+<p>we use some Felgo components like ToolTip here:</p>
+<pre class="qml"><span class="type">AppToolTip</span> {
+   <span class="name">id</span>: <span class="name">phelpsMathcesTooltip</span>
+   <span class="name">target</span>: <span class="name">phelpsMathcesButton</span>
+   <span class="name">text</span>: <span class="string">&quot;997&quot;</span>
+   <span class="name">backgroundColor</span>: <span class="string">&quot;black&quot;</span>
+   <span class="name">color</span>: <span class="string">&quot;white&quot;</span>
+ }</pre>
+<a name="component-for-going-to-another-page"></a>
+<h4 id="component-for-going-to-another-page">Component for going to another page</h4>
+<p>we use some Felgo components lto going to another page by refernce the id the component in Onclick in AppButton:</p>
+<pre class="qml"><span class="type">Component</span> {
+    <span class="name">id</span>: <span class="name">phelpsModel</span>
+    <span class="type"><a href="qml-phelpsmodel.html">PhelpsModel</a></span>{}
+}</pre>
+<!-- @@@PhelpsPage -->
+<hr/><p class="footer"><small>FelgoProject</small></p></body>
+</html>

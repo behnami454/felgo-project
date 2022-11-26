@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- Main.qml -->
+  <title>Main QML Type | FelgoProject</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<p class="header"><small>[My simple FelgoProject documentation]</small></p><hr/><div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+<li class="level2"><a href="#setting-default-theme-for-the-whole-app">Setting default Theme for the whole App</a></li>
+<li class="level4"><a href="#using-another-page-here-with-refence">Using another Page here with Refence</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">Main QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$Main-brief -->
+<p>the first page that will run. <a href="#details">More...</a></p>
+<!-- @@@Main -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import  </td></tr></table></div><ul>
+<li><a href="qml-main-members.html">List of all members, including inherited members</a></li>
+</ul>
+<!-- $$$Main-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+<p>this project is a simple hard-coded app using <a href="https://felgo.com/">Felgo</a> and doesn't use any Api</p>
+<a name="setting-default-theme-for-the-whole-app"></a>
+<h2 id="setting-default-theme-for-the-whole-app">Setting default Theme for the whole App</h2>
+<p>To set the default theme, we can use this:</p>
+<pre class="qml">onInitTheme: {
+    // Set the status bar style to white (light style)
+    Theme.colors.statusBarStyle = Theme.colors.statusBarStyleWhite
+
+    // Set the navigation bar background color
+    Theme.navigationBar.backgroundColor = &quot;black&quot;
+    Theme.navigationBar.titleColor = &quot;white&quot;
+    Theme.navigationBar.dividerColor = &quot;black&quot;
+
+    // Set the background color, which is used as background color of pages
+    Theme.colors.backgroundColor = &quot;#151414&quot;
+
+    // Set the global text color to white
+    Theme.colors.textColor = &quot;white&quot;
+}</pre>
+<a name="using-another-page-here-with-refence"></a>
+<h4 id="using-another-page-here-with-refence">Using another Page here with Refence</h4>
+<p>to use another Page here we can do like this</p>
+<pre class="qml"><span class="type"><a href="qml-homepage.html">HomePage</a></span>{}</pre>
+<!-- @@@Main -->
+<hr/><p class="footer"><small>FelgoProject</small></p></body>
+</html>

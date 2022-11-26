@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<!-- MessiModel.qml -->
+  <title>MessiModel QML Type | FelgoProject</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<p class="header"><small>[My simple FelgoProject documentation]</small></p><hr/><div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+<li class="level2"><a href="#inserting-informations">inserting informations</a></li>
+<li class="level3"><a href="#showing-datas">showing datas</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">MessiModel QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$MessiModel-brief -->
+<p>this page opens when we click on more in previous pages ( technically here is the result page of the MODAL that we used before ). <a href="#details">More...</a></p>
+<!-- @@@MessiModel -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import  </td></tr></table></div><ul>
+<li><a href="qml-messimodel-members.html">List of all members, including inherited members</a></li>
+</ul>
+<!-- $$$MessiModel-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+<p>this the the MessiModel</p>
+<a name="inserting-informations"></a>
+<h2 id="inserting-informations">inserting informations</h2>
+<p>Creating variable that we can insert information in it and then later we show them in AppListView:</p>
+<pre class="qml">property var myModel: [
+    {label: &quot;UCL&quot;, info: &quot;He has won 4 trophies&quot;},
+    {label: &quot;League&quot;, info: &quot;He has won 11 trophies&quot;},
+    {label: &quot;Copa America&quot;, info: &quot;He has won 1 trophies&quot;},
+    {label: &quot;Copa Del Rey&quot;, info: &quot;He has won 7 trophies&quot;},
+    {label: &quot;Ballon D'or&quot;, info: &quot;He has won 7 trophies&quot;},
+    {label: &quot;Golden shoe&quot;, info: &quot;He has won 6 trophies&quot;},
+    {label: &quot;FIFA World Player of the Year&quot;, info: &quot;He has won 6 trophies&quot;},
+    {label: &quot;Golden boy&quot;, info: &quot;He has won 1 trophies&quot;},
+    {label: &quot;Pichichi&quot;, info: &quot;He has won 8 trophies&quot;},
+    {label: &quot;Iffhs&quot;, info: &quot;He has won 4 trophies&quot;},
+]</pre>
+<a name="showing-datas"></a>
+<h3 id="showing-datas">showing datas</h3>
+<p>in this part we show the informations that we inserted into <a href="https://felgo.com/doc/felgo-applistview/">Felgo AppListView</a> :</p>
+<pre class="qml"><span class="type">AppListView</span> {
+    <span class="name">backgroundColor</span>: <span class="string">&quot;#151414&quot;</span>
+    <span class="name">model</span>: <span class="name">messiModel</span>.<span class="name">myModel</span>
+
+    <span class="comment">// shwoing informations</span>
+    <span class="name">delegate</span>:
+        <span class="name">AppListItem</span> {
+        <span class="name">backgroundColor</span>: <span class="string">&quot;#151414&quot;</span>
+        <span class="name">text</span>: <span class="name">modelData</span>.<span class="name">label</span>
+        <span class="name">detailText</span>: <span class="name">modelData</span>.<span class="name">info</span>
+    }
+}</pre>
+<!-- @@@MessiModel -->
+<hr/><p class="footer"><small>FelgoProject</small></p></body>
+</html>
